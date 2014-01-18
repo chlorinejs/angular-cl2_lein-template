@@ -36,6 +36,7 @@ node_modules/testem/testem.js
 If you just want to run the tests once:
 
 ```bash
+lein cl2c once dev
 node_modules/testem/testem.js ci
 ```
 
@@ -48,7 +49,7 @@ reload on update. Tools like [nodefront][1] is for you:
 
 ```bash
 # Auto compile front-end
-lein cl2c auto dev
+lein cl2c auto prod
 ```
 
 ```bash
